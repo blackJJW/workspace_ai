@@ -1,0 +1,17 @@
+
+public class Player {
+	String name = "정진우";
+	int hp = 100;
+	int mana = 100;
+	int damage = 10;
+	
+	public void attack(Slime enemy) {
+		int afterhp = enemy.hp - this.damage;
+		if(afterhp < 0) {
+			afterhp = 0;
+		}
+		System.out.printf("%s가 %s를 %d의 데미지로 공격", this.name, enemy.name, this.damage);
+		System.out.printf("%s의 체력이 %d에서 %d가 됨", enemy.name, enemy.hp, afterhp);
+		enemy.hp = afterhp;
+	}
+}

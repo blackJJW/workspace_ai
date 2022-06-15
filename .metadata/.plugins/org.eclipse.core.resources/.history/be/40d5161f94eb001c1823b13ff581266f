@@ -1,0 +1,28 @@
+package variable;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int a = 5;
+		double b = 7.5;
+		System.out.println(a+b);
+		
+		char x = 'a';
+		String y = "hello";
+		System.out.println(x+y);
+		
+		int myNum = a;
+		myNum = myNum + 10;
+		System.out.println("muNum : " + myNum);
+		System.out.println("a : " + a);
+		
+		Integer myInt = 5;
+		Integer bInt = 9;
+		myInt = bInt;
+		myInt += 5;
+		System.out.println("myInt : "+myInt);
+		System.out.println("myInt : "+bInt);
+	}
+
+}

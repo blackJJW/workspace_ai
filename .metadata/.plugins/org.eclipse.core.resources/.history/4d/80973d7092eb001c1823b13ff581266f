@@ -1,0 +1,16 @@
+package variable;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int a = 5;
+		double b = 7.5;
+		System.out.println(a+b);
+		
+		char x = 'a';
+		String y = "hello";
+		System.out.println(x+y);
+	}
+
+}

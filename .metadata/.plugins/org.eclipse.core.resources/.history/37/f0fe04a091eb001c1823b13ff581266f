@@ -1,0 +1,12 @@
+package variable;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int a = 5;
+		int b = a+(int)7.5;
+		System.out.println(b);
+	}
+
+}

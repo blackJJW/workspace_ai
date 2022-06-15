@@ -1,0 +1,13 @@
+
+public class Slime {
+	String name = "슬라임";
+	int hp = 20;
+	int mana = 100;
+	int damage = 10;
+	
+	public void deathNotice(){
+		if (this.hp == 0) {
+			System.out.printf("%s이(가) 죽었습니다. \n", this.name);
+		}
+	}
+}

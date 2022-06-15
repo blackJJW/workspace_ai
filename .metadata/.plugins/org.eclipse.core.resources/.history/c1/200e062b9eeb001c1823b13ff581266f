@@ -1,0 +1,26 @@
+package variable;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int a = 5;
+		double b = 7.5;
+		System.out.println(a+b);
+		
+		char x = 'a';
+		String y = "hello";
+		System.out.println(x+y);
+		
+		int myNum = a;
+		myNum = myNum + 10;
+		System.out.println("muNum : " + myNum);
+		System.out.println("a : " + a);
+		
+		String[] arr1 = {"a", "b"};
+		String[] arr2 = {"c", "d", ""};
+		arr1 = arr2;
+		arr2[2] = "f";
+	}
+
+}

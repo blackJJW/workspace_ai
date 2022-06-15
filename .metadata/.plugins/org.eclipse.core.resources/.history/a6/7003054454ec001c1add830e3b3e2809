@@ -1,0 +1,14 @@
+
+public class Game {
+
+	public static void main(String[] args) {
+		Player player1 = new Player();
+		Slime enemy1 = new Slime();
+		player1.attack(enemy1);
+		player1.attack(enemy1);
+		player1.attack(enemy1);
+		player1.attack(enemy1);
+
+	}
+
+}
