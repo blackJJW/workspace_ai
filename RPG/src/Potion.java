@@ -11,7 +11,7 @@ public class Potion {
 		color = 색깔;
 		type = 종류;
 	}
-	
+	//오버로드, 오버로딩
 	public Potion(String 이름) {
 		name = 이름;
 		recovery = 30;

@@ -1,0 +1,17 @@
+
+public class Golem extends Monster{
+	boolean defenceYn = false;
+	
+	public Golem(String name, int hp) {
+		super(name, hp);
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void defenceOn() {
+		defenceYn = true;
+	}
+	public void defenceOff() {
+		defenceYn = false;
+	}
+
+}

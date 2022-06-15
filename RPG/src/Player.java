@@ -5,6 +5,11 @@ public class Player {
 	int mana = 100;
 	int damage = 10;
 	
+	public Player(String name) {
+		//super(); // 부모의 기본 생성자를 호
+		this.name = name;
+	}
+	
 	public void attack(Slime enemy) {
 		
 		if(enemy.hp <= 0) {
